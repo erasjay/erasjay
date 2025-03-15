@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4A3E4603D7E19FE74692A3DB /* Pods_TrustPact_TrustPactUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3B189DF65FD0B2C24530FF /* Pods_TrustPact_TrustPactUITests.framework */; };
+		4E7DB8648C3727C0E1555868 /* Pods_TrustPactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB50CA2AF65FCA8FB676D8 /* Pods_TrustPactTests.framework */; };
+		53EAFD476DAEB58636D6BCB1 /* Pods_TrustPact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6EF306E99D923B10D5BC0 /* Pods_TrustPact.framework */; };
+		8420B4E62D79449100380A9D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8420B4E52D79449100380A9D /* FirebaseAnalytics */; };
+		8420B4E82D79449100380A9D /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 8420B4E72D79449100380A9D /* FirebaseAnalyticsOnDeviceConversion */; };
+		8420B4EA2D79449100380A9D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8420B4E92D79449100380A9D /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		8420B4EC2D79449100380A9D /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8420B4EB2D79449100380A9D /* FirebaseAppCheck */; };
+		8420B4EE2D79449100380A9D /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8420B4ED2D79449100380A9D /* FirebaseAppDistribution-Beta */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		84E47A892D79106000F79E61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,24 +35,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B986C9161CB7371A5EE5B8D /* Pods-TrustPact-TrustPactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustPact-TrustPactUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrustPact-TrustPactUITests/Pods-TrustPact-TrustPactUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BD082F6DEE438C8B3FCE291 /* Pods-TrustPact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustPact.debug.xcconfig"; path = "Target Support Files/Pods-TrustPact/Pods-TrustPact.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3B189DF65FD0B2C24530FF /* Pods_TrustPact_TrustPactUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustPact_TrustPactUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B8A2CD89AC9887E0D1DDEB /* Pods-TrustPact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustPact.release.xcconfig"; path = "Target Support Files/Pods-TrustPact/Pods-TrustPact.release.xcconfig"; sourceTree = "<group>"; };
+		4F85928BD66A2CAE0F5D172D /* Pods-TrustPactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustPactTests.release.xcconfig"; path = "Target Support Files/Pods-TrustPactTests/Pods-TrustPactTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C66E900480875E5CDF2F5A9 /* Pods-TrustPact-TrustPactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustPact-TrustPactUITests.release.xcconfig"; path = "Target Support Files/Pods-TrustPact-TrustPactUITests/Pods-TrustPact-TrustPactUITests.release.xcconfig"; sourceTree = "<group>"; };
 		84E47A782D79105E00F79E61 /* TrustPact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrustPact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E47A882D79106000F79E61 /* TrustPactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrustPactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E47A922D79106000F79E61 /* TrustPactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrustPactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CB50CA2AF65FCA8FB676D8 /* Pods_TrustPactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustPactTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC14B7A0B6BBEEBA2DB62A30 /* Pods-TrustPactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustPactTests.debug.xcconfig"; path = "Target Support Files/Pods-TrustPactTests/Pods-TrustPactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEF6EF306E99D923B10D5BC0 /* Pods_TrustPact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustPact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		84E47A7A2D79105E00F79E61 /* TrustPact */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TrustPact;
 			sourceTree = "<group>";
 		};
 		84E47A8B2D79106000F79E61 /* TrustPactTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TrustPactTests;
 			sourceTree = "<group>";
 		};
 		84E47A952D79106000F79E61 /* TrustPactUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TrustPactUITests;
 			sourceTree = "<group>";
 		};
@@ -52,6 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8420B4E62D79449100380A9D /* FirebaseAnalytics in Frameworks */,
+				8420B4E82D79449100380A9D /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				8420B4EC2D79449100380A9D /* FirebaseAppCheck in Frameworks */,
+				8420B4EA2D79449100380A9D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				8420B4EE2D79449100380A9D /* FirebaseAppDistribution-Beta in Frameworks */,
+				53EAFD476DAEB58636D6BCB1 /* Pods_TrustPact.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7DB8648C3727C0E1555868 /* Pods_TrustPactTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3E4603D7E19FE74692A3DB /* Pods_TrustPact_TrustPactUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +113,8 @@
 				84E47A8B2D79106000F79E61 /* TrustPactTests */,
 				84E47A952D79106000F79E61 /* TrustPactUITests */,
 				84E47A792D79105E00F79E61 /* Products */,
+				FDDF575D40A5CC3C8297E0D3 /* Pods */,
+				CB00D3A74DAC141BD9FB239B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +128,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CB00D3A74DAC141BD9FB239B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF6EF306E99D923B10D5BC0 /* Pods_TrustPact.framework */,
+				2F3B189DF65FD0B2C24530FF /* Pods_TrustPact_TrustPactUITests.framework */,
+				94CB50CA2AF65FCA8FB676D8 /* Pods_TrustPactTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDF575D40A5CC3C8297E0D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BD082F6DEE438C8B3FCE291 /* Pods-TrustPact.debug.xcconfig */,
+				44B8A2CD89AC9887E0D1DDEB /* Pods-TrustPact.release.xcconfig */,
+				0B986C9161CB7371A5EE5B8D /* Pods-TrustPact-TrustPactUITests.debug.xcconfig */,
+				7C66E900480875E5CDF2F5A9 /* Pods-TrustPact-TrustPactUITests.release.xcconfig */,
+				CC14B7A0B6BBEEBA2DB62A30 /* Pods-TrustPactTests.debug.xcconfig */,
+				4F85928BD66A2CAE0F5D172D /* Pods-TrustPactTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E47A9C2D79106000F79E61 /* Build configuration list for PBXNativeTarget "TrustPact" */;
 			buildPhases = (
+				0717AB5D0D60B1D2345B4FBD /* [CP] Check Pods Manifest.lock */,
 				84E47A742D79105E00F79E61 /* Sources */,
 				84E47A752D79105E00F79E61 /* Frameworks */,
 				84E47A762D79105E00F79E61 /* Resources */,
+				E4A79FFDE8CA49A438F4332B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +172,6 @@
 				84E47A7A2D79105E00F79E61 /* TrustPact */,
 			);
 			name = TrustPact;
-			packageProductDependencies = (
-			);
 			productName = TrustPact;
 			productReference = 84E47A782D79105E00F79E61 /* TrustPact.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E47A9F2D79106000F79E61 /* Build configuration list for PBXNativeTarget "TrustPactTests" */;
 			buildPhases = (
+				A040710DB1A99047A4C5672B /* [CP] Check Pods Manifest.lock */,
 				84E47A842D79106000F79E61 /* Sources */,
 				84E47A852D79106000F79E61 /* Frameworks */,
 				84E47A862D79106000F79E61 /* Resources */,
@@ -134,8 +194,6 @@
 				84E47A8B2D79106000F79E61 /* TrustPactTests */,
 			);
 			name = TrustPactTests;
-			packageProductDependencies = (
-			);
 			productName = TrustPactTests;
 			productReference = 84E47A882D79106000F79E61 /* TrustPactTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E47AA22D79106000F79E61 /* Build configuration list for PBXNativeTarget "TrustPactUITests" */;
 			buildPhases = (
+				521712538A438CE8890BC971 /* [CP] Check Pods Manifest.lock */,
 				84E47A8E2D79106000F79E61 /* Sources */,
 				84E47A8F2D79106000F79E61 /* Frameworks */,
 				84E47A902D79106000F79E61 /* Resources */,
+				1A5E66D605C14901BCB4D6F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +217,6 @@
 				84E47A952D79106000F79E61 /* TrustPactUITests */,
 			);
 			name = TrustPactUITests;
-			packageProductDependencies = (
-			);
 			productName = TrustPactUITests;
 			productReference = 84E47A922D79106000F79E61 /* TrustPactUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -195,6 +253,9 @@
 			);
 			mainGroup = 84E47A6F2D79105E00F79E61;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8420B4E42D79449100380A9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 84E47A792D79105E00F79E61 /* Products */;
 			projectDirPath = "";
@@ -230,6 +291,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0717AB5D0D60B1D2345B4FBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrustPact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A5E66D605C14901BCB4D6F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrustPact-TrustPactUITests/Pods-TrustPact-TrustPactUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrustPact-TrustPactUITests/Pods-TrustPact-TrustPactUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrustPact-TrustPactUITests/Pods-TrustPact-TrustPactUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		521712538A438CE8890BC971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrustPact-TrustPactUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A040710DB1A99047A4C5672B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrustPactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A79FFDE8CA49A438F4332B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrustPact/Pods-TrustPact-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrustPact/Pods-TrustPact-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrustPact/Pods-TrustPact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84E47A742D79105E00F79E61 /* Sources */ = {
@@ -390,6 +554,7 @@
 		};
 		84E47A9D2D79106000F79E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD082F6DEE438C8B3FCE291 /* Pods-TrustPact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +584,7 @@
 		};
 		84E47A9E2D79106000F79E61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B8A2CD89AC9887E0D1DDEB /* Pods-TrustPact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +614,7 @@
 		};
 		84E47AA02D79106000F79E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC14B7A0B6BBEEBA2DB62A30 /* Pods-TrustPactTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +634,7 @@
 		};
 		84E47AA12D79106000F79E61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F85928BD66A2CAE0F5D172D /* Pods-TrustPactTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +654,7 @@
 		};
 		84E47AA32D79106000F79E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B986C9161CB7371A5EE5B8D /* Pods-TrustPact-TrustPactUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +672,7 @@
 		};
 		84E47AA42D79106000F79E61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C66E900480875E5CDF2F5A9 /* Pods-TrustPact-TrustPactUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -558,6 +728,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8420B4E42D79449100380A9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8420B4E52D79449100380A9D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8420B4E42D79449100380A9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8420B4E72D79449100380A9D /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8420B4E42D79449100380A9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		8420B4E92D79449100380A9D /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8420B4E42D79449100380A9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		8420B4EB2D79449100380A9D /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8420B4E42D79449100380A9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		8420B4ED2D79449100380A9D /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8420B4E42D79449100380A9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84E47A702D79105E00F79E61 /* Project object */;
 }
